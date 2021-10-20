@@ -1,0 +1,17 @@
+.contact{
+    padding: 15px;
+    width: 400px;
+    height: 100%;
+}
+.container{
+    flex-direction: column;
+}
+.contrainer .contactinfo{
+    margin-bottom: 60px;
+    width: 100px;
+}
+.contactform{
+    width: 350px;
+    padding: 3spx;
+    margin: 60px 0px;
+}

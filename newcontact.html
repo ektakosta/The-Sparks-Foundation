@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600&family=Basic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="newcss.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="newphone.css">
+    <title>Contact here!</title>
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>We're here !! For any query send us Messages.</p>
+        </div>
+        <div class="container">
+            <div class="contactinfo">
+                <div class="box"></div>
+                <div class="icon">
+                    <img src="adress.png" alt="adress image" height="25px" width="25px">
+                </div>
+                <div class="text">
+                    <h3>Address:</h3>
+                    <p>The Hangar, NUS Enterprise 21 Heng Mui Keng Terrace, Singapore, 119613</p>
+                </div>
+                <div class="box"></div>
+                <div class="icon">
+                    <img src="phone.jpg" alt="phone image" height="25px" width="25px">
+                </div>
+                <div class="text">
+                    <h3>Phone:</h3>
+                    <p>+65-8402-8590</p>
+                </div>
+                <div class="box"></div>
+                <div class="icon">
+                    <img src="email.png" alt="email image" height="25px" width="25px">
+                </div>
+                <div class="text">
+                    <h3>E-mail:</h3>
+                    <p>info@thesparksfoundation.sg</p>
+                </div>
+            </div>
+            <div class=" contactform">
+                <form>
+                    <h2>Send Messages</h2>
+                    <div class="inputbox">
+                        <input type="text"name="" required="required">
+                        <span>Full name</span>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" name="" required="required">
+                        <span>E-mail</span>
+                    </div>
+                    <div class="inputbox">
+                        <textarea required="required"></textarea>
+                        <span>Message..</span>
+                    </div>
+                    <div class="inputbox">
+                        <input  id="submit" type="Submit" name="" value="Send">
+                        </div>
+                </form>
+            </div>
+         </div>
+    </section>
+    <script>
+        $("#submit").click(function(){
+        alert("Your message is sent!!");
+        });
+    </script>
+</body>
+</html>
